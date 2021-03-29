@@ -43,9 +43,9 @@ console.log('Зарегано: ' + r) */
 let cusers = []
 
 vk.setOptions({ 
-  token: "токен группы", 
+  token: "96ee77bd11f50c621ac93b625b6926f348bb3a89b18b2d617813cf9986a95c3ac18726f5a5c8ff6a781a9", 
   apiMode: "parallel", 
-    pollingGroupId: айди группы
+    pollingGroupId: 203626639
 });
 
 const PaperScroll = require("paper-scroll-sdk");
@@ -74,8 +74,8 @@ api1.createWebhook("https://to-link.pw:4040/paper", ['transfer_new']).then((resu
 
 let adminId = 521577793 // Admin VK Id
 
-let miniAppKey = "123123123123" // Mini App Token
-let miniAppKey1 = "123123123123123" // Mini App Secret Key
+let miniAppKey = "Zp3eBnO3z5N5AEd3euJq" // Mini App Token
+let miniAppKey1 = "647c42b7647c42b7647c42b7ce640b5fbb6647c647c42b7041c93348cc327008d441ea8" // Mini App Secret Key
 
 let online = 0 // Default: 0
 const admins = [587919434, 521577793]
